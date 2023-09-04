@@ -1,0 +1,33 @@
+.ml-40 {
+}
+.mt-40 {
+}
+.text {
+   font-size: 100px;
+}
+.animation-text {
+   color: #e46444;
+   border-right: 5px solid #000;
+   padding-right: 20px;
+   font-weight: bold;
+   animation: typing 3s, blinking 0.75s step-end infinite;
+}
+
+@keyframes typing {
+   from {
+      width: 0;
+   }
+   to {
+      width: 100%;
+   }
+}
+
+@keyframes blinking {
+   from,
+   to {
+      border-color: transparent;
+   }
+   50% {
+      border-color: #000;
+   }
+}
